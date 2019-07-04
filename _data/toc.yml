@@ -1,0 +1,462 @@
+# This file contains the order and numbering for all sections in the book.
+#
+# It is a sample TOC file to help you get started. Fill it out with entries
+# for your own content.
+#
+# Each entry has the following schema:
+#
+# - title: mytitle   # Title of chapter or section
+#   url: /myurl  # URL of section relative to the /content/ folder.
+#   sections:  # Contains a list of more entries that make up the chapter's sections
+#   not_numbered: true  # if the section shouldn't have a number in the sidebar
+#     (e.g. Introduction or appendices)
+#   expand_sections: true  # if you'd like the sections of this chapter to always
+#     be expanded in the sidebar.
+#   external: true  # Whether the URL is an external link or points to content in the book
+#
+# Below are some special values that trigger specific behavior:
+# - search: true  # Will provide a link to a search page
+# - divider: true  # Will insert a divider in the sidebar
+# - header: My Header  # Will insert a header with no link in the sidebar
+#
+# See the links below for an example.
+
+# Top-level page
+- title: 目录
+  url: /01-1
+  not_numbered: true
+
+
+# External link
+- title: GitHub repository
+  url: http://www.momodel.cn:8899/classroom
+  external: true
+  not_numbered: true
+
+# Adds a searchbar link
+- title: 查询
+  search: true
+
+# Divider for meta-pages and content page
+- divider: true
+
+# Add a header and sample content section
+- header: 书籍内容
+
+# A chapter w/ a collection of sections beneath it
+- title: 第一章 引言(Introduction) 
+#  url: /01/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 01-2 机器学习简介
+    url: /01/01-2
+    not_numbered: true
+  - title: 01-3 什么是机器学习
+    url: /01/01-3
+    not_numbered: true
+  - title: 01-4 监督学习
+    url: /01/01-4
+    not_numbered: true
+  - title: 01-5 非监督学习
+    url: /01/01-5
+    not_numbered: true
+    
+- title: 第二章 单变量线性回归(Linear Regression with One Variable) 
+#  url: /02/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 02-1 模型表示
+    url: /02/02-1
+    not_numbered: true
+  - title: 02-2 代价函数
+    url: /02/02-2
+    not_numbered: true
+  - title: 02-3 理解代价函数 - I
+    url: /02/02-3
+    not_numbered: true
+  - title: 02-4 理解代价函数 - II
+    url: /02/02-4
+    not_numbered: true
+  - title: 02-5 梯度下降
+    url: /02/02-5
+    not_numbered: true
+  - title: 02-6 理解梯度下降
+    url: /02/02-6
+    not_numbered: true
+  - title: 02-7 线性回归中的梯度下降
+    url: /02/02-7
+    not_numbered: true
+
+- title: 第三章 线性代数回顾(Linear Algebra Review) 
+#  url: /03/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 03-1 矩阵和向量
+    url: /03/03-1
+    not_numbered: true
+  - title: 03-2 加法和乘法
+    url: /03/03-2
+    not_numbered: true
+  - title: 03-3 向量乘法
+    url: /03/03-3
+    not_numbered: true
+  - title: 03-4 矩阵乘法
+    url: /03/03-4
+    not_numbered: true
+  - title: 03-5 矩阵乘法特性
+    url: /03/03-5
+    not_numbered: true
+  - title: 03-6 矩阵转置与求逆
+    url: /03/03-6
+    not_numbered: true
+    
+- title: 第四章 多变量线性回归(Linear Regression with Multiple Variables)
+#  url: /04/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 04-1 多变量线性回归
+    url: /04/04-1
+    not_numbered: true
+  - title: 04-2 多变量梯度下降
+    url: /04/04-2
+    not_numbered: true
+  - title: 04-3 梯度下降 - 特征缩放
+    url: /04/04-3
+    not_numbered: true
+  - title: 04-4 梯度下降 - 学习率
+    url: /04/04-4
+    not_numbered: true
+  - title: 04-5 特征与多项式回归
+    url: /04/04-5
+    not_numbered: true
+  - title: 04-6 正规方程
+    url: /04/04-6
+    not_numbered: true
+  - title: 04-7 正规方程不可逆的情况
+    url: /04/04-7
+    not_numbered: true
+    
+- title: 第五章 逻辑回归(Logistic Regression) 
+#  url: /05/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 05-1 分类
+    url: /05/05-1
+    not_numbered: true
+  - title: 05-2 假设函数表达式
+    url: /05/05-2
+    not_numbered: true
+  - title: 05-3 决策边界
+    url: /05/05-3
+    not_numbered: true
+  - title: 05-4 代价函数 I
+    url: /05/05-4
+    not_numbered: true
+  - title: 05-5 简化的代价函数和梯度下降
+    url: /05/05-5
+    not_numbered: true
+  - title: 05-6 高级优化技巧
+    url: /05/05-6
+    not_numbered: true
+  - title: 05-7 多分类任务
+    url: /05/05-7
+    not_numbered: true
+    
+- title: 第六章 正则化(Regularization) 
+#  url: /06/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 06-1 过拟合问题
+    url: /06/06-1
+    not_numbered: true
+  - title: 06-2 代价函数 II
+    url: /06/06-2
+    not_numbered: true
+  - title: 06-3 正则化与线性回归
+    url: /06/06-3
+    not_numbered: true
+  - title: 06-4 正则化与逻辑回归
+    url: /06/06-4
+    not_numbered: true
+
+- title: 第七章 神经网络-表述(Neural Networks-Representation) 
+#  url: /07/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 07-1 非线性假设
+    url: /07/07-1
+    not_numbered: true
+  - title: 07-2 神经元与大脑
+    url: /07/07-2
+    not_numbered: true
+  - title: 07-3 模型表示 I
+    url: /07/07-3
+    not_numbered: true
+  - title: 07-4 模型表示 II
+    url: /07/07-4
+    not_numbered: true
+  - title: 07-5 模型表示实例 I
+    url: /07/07-5
+    not_numbered: true
+  - title: 07-6 模型表示实例 II
+    url: /07/07-6
+    not_numbered: true
+  - title: 07-7 多分类任务
+    url: /07/07-7
+    not_numbered: true
+    
+- title: 第八章 神经网络的学习(Neural Networks-Learning) 
+#  url: /08/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 08-1 代价函数 III
+    url: /08/08-1
+    not_numbered: true
+  - title: 08-2 反向传播
+    url: /08/08-2
+    not_numbered: true
+  - title: 08-3 理解反向传播
+    url: /08/08-3
+    not_numbered: true
+  - title: 08-4 实现参数展开
+    url: /08/08-4
+    not_numbered: true
+  - title: 08-5 梯度校验
+    url: /08/08-5
+    not_numbered: true
+  - title: 08-6 随机初始化
+    url: /08/08-6
+    not_numbered: true
+  - title: 08-7 把前面的内容放在一起
+    url: /08/08-7
+    not_numbered: true
+  - title: 08-8 自动驾驶
+    url: /08/08-8
+    not_numbered: true
+    
+- title: 第九章 应用机器学习的建议(Advice for Applying Machine Learning) 
+#  url: /09/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 09-1 决定下一步做什么
+    url: /09/09-1
+    not_numbered: true
+  - title: 09-2 假设检验
+    url: /09/09-2
+    not_numbered: true
+  - title: 09-3 模型选择与训练集、验证集、测试集切分
+    url: /09/09-3
+    not_numbered: true
+  - title: 09-4 诊断偏差和方差
+    url: /09/09-4
+    not_numbered: true
+  - title: 09-5 正则化、偏差和方差
+    url: /09/09-5
+    not_numbered: true
+  - title: 09-6 学习曲线
+    url: /09/09-6
+    not_numbered: true
+  - title: 09-7 决定下一步做什么(回顾)
+    url: /09/09-7
+    not_numbered: true
+
+  
+- title: 第十章 机器学习系统的设计(Machine Learning System Design) 
+#  url: /10/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 10-1 优先考虑什么
+    url: /10/10-1
+    not_numbered: true
+  - title: 10-2 误差分析
+    url: /10/10-2
+    not_numbered: true
+  - title: 10-3 误差矩阵
+    url: /10/10-3
+    not_numbered: true
+  - title: 10-4 精确率和召回率的权衡
+    url: /10/10-4
+    not_numbered: true
+  - title: 10-5 机器学习的数据
+    url: /10/10-5
+    not_numbered: true
+
+- title: 第十一章 支持向量机(Support Vector Machines) 
+#  url: /11/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 11-1 优化问题
+    url: /11/11-1
+    not_numbered: true
+  - title: 11-2 直观理解大间距分类器
+    url: /11/11-2
+    not_numbered: true
+  - title: 11-3 大间距分类器背后的数学原理 (选学)
+    url: /11/11-3
+    not_numbered: true
+  - title: 11-4 核技巧 I
+    url: /11/11-4
+    not_numbered: true
+  - title: 11-5 核技巧 II
+    url: /11/11-5
+    not_numbered: true
+  - title: 11-6 使用 SVM
+    url: /11/11-6
+    not_numbered: true
+
+- title: 第十二章 聚类(Clustering) 
+#  url: /12/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 12-1 非监督学习介绍
+    url: /12/12-1
+    not_numbered: true
+  - title: 12-2 K-Means 算法
+    url: /12/12-2
+    not_numbered: true
+  - title: 12-3 优化目标
+    url: /12/12-3
+    not_numbered: true
+  - title: 12-4 随机初始化 II
+    url: /12/12-4
+    not_numbered: true
+  - title: 12-5 选择聚类数目
+    url: /12/12-5
+    not_numbered: true
+
+    
+- title: 第十三章 降维(Dimensionality Reduction) 
+#  url: /13/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 13-1 用途 I 数据压缩
+    url: /13/13-1
+    not_numbered: true
+  - title: 13-2 用途 II 可视化
+    url: /13/13-2
+    not_numbered: true
+  - title: 13-3 主成分分析问题
+    url: /13/13-3
+    not_numbered: true
+  - title: 13-4 主成分分析算法
+    url: /13/13-4
+    not_numbered: true
+  - title: 13-5 选择主成分数目
+    url: /13/13-5
+    not_numbered: true
+  - title: 13-6 压缩表示重建
+    url: /13/13-6
+    not_numbered: true
+  - title: 13-7 使用 PCA 的建议
+    url: /13/13-7
+    not_numbered: true
+    
+- title: 第十四章 异常检测(Anomaly Detection) 
+#  url: /14/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 14-1 问题驱动
+    url: /14/14-1
+    not_numbered: true
+  - title: 14-2 高斯分布
+    url: /14/14-2
+    not_numbered: true
+  - title: 14-3 算法
+    url: /14/14-3
+    not_numbered: true
+  - title: 14-4 开发并评估一个异常检测系统
+    url: /14/14-4
+    not_numbered: true
+  - title: 14-5 异常检测 vs 监督学习
+    url: /14/14-5
+    not_numbered: true
+  - title: 14-6 选择合适的特征
+    url: /14/14-6
+    not_numbered: true
+  - title: 14-7 多元高斯分布
+    url: /14/14-7
+    not_numbered: true
+  - title: 14-8 使用高斯分布进行异常检测
+    url: /14/14-8
+    not_numbered: true
+    
+    
+- title: 第十五章 推荐系统(Recommender Systems) 
+#  url: /15/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 15-1 问题公式化
+    url: /15/15-1
+    not_numbered: true
+  - title: 15-2 基于内容的推荐问题
+    url: /15/15-2
+    not_numbered: true
+  - title: 15-3 协同过滤
+    url: /15/15-3
+    not_numbered: true
+  - title: 15-4 协同过滤算法
+    url: /15/15-4
+    not_numbered: true
+  - title: 15-5 向量化
+    url: /15/15-5
+    not_numbered: true
+  - title: 15-6 平均标准化的实现细节
+    url: /15/15-6
+    not_numbered: true
+    
+- title: 第十六章 大规模机器学习(Large Scale Machine Learning) 
+#  url: /16/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 16-1 基于大数据的学习
+    url: /16/16-1
+    not_numbered: true
+  - title: 16-2 随机梯度下降
+    url: /16/16-2
+    not_numbered: true
+  - title: 16-3 小批量梯度下降
+    url: /16/16-3
+    not_numbered: true
+  - title: 16-4 随机梯度下降的收敛性
+    url: /16/16-4
+    not_numbered: true
+  - title: 16-5 在线学习
+    url: /16/16-5
+    not_numbered: true
+  - title: 16-6 Map Reduce 和数据并行
+    url: /16/16-6
+    not_numbered: true
+    
+- title: 第十七章 应用实例-图片文字识别(Application Example-Photo OCR) 
+# url: /17/features
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: 17-1 问题描述与管道
+    url: /17/17-1
+    not_numbered: true
+  - title: 17-2 滑动窗口
+    url: /17/17-2
+    not_numbered: true
+  - title: 17-3 获取海量数据和人工数据
+    url: /17/17-3
+    not_numbered: true
+  - title: 17-4 上限分析
+    url: /17/17-4
+    not_numbered: true
