@@ -8,3 +8,4 @@ nbinteract
 scipy
 tensorflow
 numpy
+seaborn
