@@ -49,16 +49,16 @@
   not_numbered: true
   expand_sections: true
   sections:
-  - title: 01-2 机器学习简介
+  - title: 01-1 机器学习简介
     url: /01/01-2
     not_numbered: true
-  - title: 01-3 什么是机器学习
+  - title: 01-2 什么是机器学习
     url: /01/01-3
     not_numbered: true
-  - title: 01-4 监督学习
+  - title: 01-3 监督学习
     url: /01/01-4
     not_numbered: true
-  - title: 01-5 非监督学习
+  - title: 01-4 非监督学习
     url: /01/01-5
     not_numbered: true
     
