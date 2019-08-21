@@ -28,8 +28,8 @@
 
 
 # External link
-- title: repository
-  url: http://www.momodel.cn:8899/classroom
+- title: 课程详情
+  url: https://momodel.cn/classroom/class?id=5c5696191afd94720cc94533&type=video
   external: true
   not_numbered: true
 
